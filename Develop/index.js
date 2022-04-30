@@ -28,7 +28,7 @@ const questions = [
     {
        type: 'input',
        name: 'contribute',
-       mesage: 'Please provide guidelines for developers who want to contribute to this project:' 
+       message: 'Please provide guidelines for developers who want to contribute to this project:' 
     },
     {
         type: 'input',
@@ -59,7 +59,8 @@ function writeToFile(fileName, data) {}
 // TODO: Create a function to initialize app
 function init() {
     return inquirer.prompt(questions)
-    .then(userInput => console.log(userInput));
+    .then(userInput => generateMarkdown(userInput))
+    .then(markdown => console.log(markdown))
 };
 
 // Function call to initialize app
