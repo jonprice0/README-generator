@@ -1,10 +1,10 @@
-# Test title
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# README-generator
+
 
 <a name="description"></a>
 ## Description:
 
-Test description
+This project's purpose was to create a command-line application that prompts the user for input and then generatesa README.md file based on the input.
 
 ## Table of Contents:
 1. [Description](#description)
@@ -18,27 +18,27 @@ Test description
 <a name="installation"></a>
 ## Installation:
 
-Test installation
+This project was built using node.js and requires 'fs' from the core library as well as the 'inquirer' package.
 
 <a name="usage"></a>
 ## Usage:
 
-Test usage
+The program generates a quality README.md file. Launch with 'node index' and simply follow the prompts!
 
 <a name="license"></a>
 ## License:
 
-This software is distributed under the MIT license.
+
 
 <a name="contributing"></a>
 ## How to contribute:
 
-Test contribution
+All contributions are welcome. In particular, the application is in need of error handling.
 
 <a name="tests"></a>
 ## How to test:
 
-Test tests
+There are no necessary tests.
 
 <a name="questions"></a>
 ## Questions:
