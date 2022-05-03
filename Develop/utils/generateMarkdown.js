@@ -1,11 +1,11 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  if (license === "MIT") {
+  if (license.toString() === "MIT") {
     return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]";
-  } else if (license === "Apache") {
+  } else if (license.toString() === "Apache") {
     return "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)]";
-  } else if (license === "Eclipse") {
+  } else if (license.toString() === "Eclipse") {
     return "[![License](https://img.shields.io/badge/License-EPL%201.0-red.svg)]";
   }
   else return "";
@@ -14,11 +14,11 @@ function renderLicenseBadge(license) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  if (license === "MIT") {
+  if (license.toString() === "MIT") {
     return "(https://opensource.org/licenses/MIT)";
-  } else if (license === "Apache") {
+  } else if (license.toString() === "Apache") {
     return "(https://opensource.org/licenses/Apache-2.0)";
-  } else if (license === "Eclipse") {
+  } else if (license.toString() === "Eclipse") {
     return "(https://opensource.org/licenses/EPL-1.0)";
   }
   else return "";
@@ -27,11 +27,11 @@ function renderLicenseLink(license) {
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-  if (license === "MIT") {
+  if (license.toString() === "MIT") {
     return "This software is distributed under the MIT license.";
-  } else if (license === "Apache") {
+  } else if (license.toString() === "Apache") {
     return "This software is distributed under the Apache license.";
-  } else if (license === "Eclipse") {
+  } else if (license.toString() === "Eclipse") {
     return "This software is distributed under the Eclipse license.";
   }
   else return "";
@@ -40,7 +40,7 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
-[${renderLicenseBadge(data.license)}](${renderLicenseLink(data.license)})
+${renderLicenseBadge(data.license)}${renderLicenseLink(data.license)}
 
 <a name="description"></a>
 ## Description:
@@ -48,15 +48,15 @@ function generateMarkdown(data) {
 ${data.description}
 
 ## Table of Contents:
-1. [ Description ] (#description)
-2. [ Installation ] (#install)
-3. [ Usage ] (#usage)
-4. [ License ] (#license)
-5. [ Contributing ] (#contribute)
-6. [ Tests ] (#test)
-7. [ Questions] (#question)
+1. [Description](#description)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [License](#license)
+5. [Contributing](#contributing)
+6. [Tests](#tests)
+7. [Questions](#questions)
 
-<a name="install"></a>
+<a name="installation"></a>
 ## Installation:
 
 ${data.install}
@@ -71,17 +71,17 @@ ${data.usage}
 
 ${renderLicenseSection(data.license)}
 
-<a name="contribute"></a>
+<a name="contributing"></a>
 ## How to contribute:
 
 ${data.contribute}
 
-<a name="test"></a>
+<a name="tests"></a>
 ## How to test:
 
 ${data.test}
 
-<a name="question"></a>
+<a name="questions"></a>
 ## Questions:
 
 If you have any questions about this project you can find me on [GitHub](https://github.com/${data.username}) or email me at ${data.email}!
