@@ -1,5 +1,5 @@
 # Test title
-
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 <a name="description"></a>
 ## Description:
@@ -28,12 +28,12 @@ Test usage
 <a name="license"></a>
 ## License:
 
-
+This software is distributed under the Apache license.
 
 <a name="contributions"></a>
 ## Contributions:
 
-Test contributions
+Test contribute
 
 <a name="testing"></a>
 ## Testing:
