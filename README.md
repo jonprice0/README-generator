@@ -1,5 +1,4 @@
-# README-generator
-
+# README.md Generator
 
 <a name="description"></a>
 ## Description:

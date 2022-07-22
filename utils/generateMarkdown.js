@@ -52,8 +52,8 @@ ${data.description}
 2. [Installation](#installation)
 3. [Usage](#usage)
 4. [License](#license)
-5. [Contributing](#contributing)
-6. [Tests](#tests)
+5. [Contributions](#contributions)
+6. [Testing](#testing)
 7. [Questions](#questions)
 
 <a name="installation"></a>
@@ -71,13 +71,13 @@ ${data.usage}
 
 ${renderLicenseSection(data.license)}
 
-<a name="contributing"></a>
-## How to contribute:
+<a name="contributions"></a>
+## Contributions:
 
 ${data.contribute}
 
-<a name="tests"></a>
-## How to test:
+<a name="testing"></a>
+## Testing:
 
 ${data.test}
 
