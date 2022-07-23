@@ -4,7 +4,7 @@
 <a name="description"></a>
 ## Description:
 
-This project's purpose was to create a command-line application that prompts a user for input and generates a README.md file based on that input.
+This project's purpose was to create a command-line application that prompts a user for input and generates a README.md file based on that input. The application prompts the user for input by utilizing node's inquirer module.
 
 <a name="demo"></a>
 ## Demo:
