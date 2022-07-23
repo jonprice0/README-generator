@@ -9,9 +9,7 @@ This project's purpose was to create a command-line application that prompts a u
 <a name="demo"></a>
 ## Demo:
 
-<figure class="video_container">
-  <iframe src="https://drive.google.com/file/d/1ZaUPYw7cXkhW8WFyb9HLl6MLqdvYVHj6/preview" width="640" height="480" allow="autoplay" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
+[Untitled_ Jul 22, 2022 6_53 PM (1).webm](https://user-images.githubusercontent.com/85747017/180591128-18b1a93c-74ef-43b6-b410-72c9fcaea6b1.webm)
 
 ## Table of Contents:
 1. [Description](#description)
