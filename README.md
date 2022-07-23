@@ -10,7 +10,7 @@ This project's purpose was to create a command-line application that prompts a u
 ## Demo:
 
 <figure class="video_container">
-  <iframe src="<iframe src="https://drive.google.com/file/d/1ZaUPYw7cXkhW8WFyb9HLl6MLqdvYVHj6/preview" width="640" height="480" allow="autoplay"></iframe>" frameborder="0" allowfullscreen="true"> </iframe>
+  <iframe src="https://drive.google.com/file/d/1ZaUPYw7cXkhW8WFyb9HLl6MLqdvYVHj6/preview" width="640" height="480" allow="autoplay" frameborder="0" allowfullscreen="true"> </iframe>
 </figure>
 
 ## Table of Contents:
