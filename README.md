@@ -9,9 +9,9 @@ This project's purpose was to create a command-line application that prompts a u
 <a name="demo"></a>
 ## Demo:
 
-<!-- <figure class="video_container"> -->
+<figure class="video_container">
   <iframe src="https://drive.google.com/file/d/1ZaUPYw7cXkhW8WFyb9HLl6MLqdvYVHj6/preview" width="640" height="480" allow="autoplay" frameborder="0" allowfullscreen="true"> </iframe>
-<!-- </figure> -->
+</figure>
 
 ## Table of Contents:
 1. [Description](#description)
