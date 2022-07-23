@@ -63,11 +63,7 @@ function writeToFile(fileName, data) {
 // Initializes the app:
 function init() {
     return inquirer.prompt(questions)
-    .then(userInput => generateMarkdown(userInput))
-    .then(markdown => writeToFile('README.md', markdown))
-    .catch(err => {
-        console.log(err);
-    });
+    .then(userInput => writeToFile('README.md', generateMarkdown(userInput)));
 };
 
 // Function call to initialize app
